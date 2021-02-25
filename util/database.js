@@ -6,7 +6,7 @@ let datab;
 
 const mongoConnect = (callback) => {
   MongoClient.connect(
-    "mongodb+srv://MarwaDB:btrackV2908@gettingstarted.3etjm.gcp.mongodb.net/shop?retryWrites=true&w=majority"
+    
   )
     .then((client) => {
       console.log("connected!");      
